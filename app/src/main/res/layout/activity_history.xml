@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/lightgreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bt_rounded"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="&lt;"
+            android:textColor="@color/cream"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:padding="0dp"
+            android:background="@drawable/bt_back"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="add"
+            app:cornerRadius="0dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Riwayat Scan"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher"
+            android:alpha="0.4"
+            android:contentDescription="Riwayat kosong"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum ada riwayat scan"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:alpha="0.5"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:clipToPadding="false"/>
+
+    <Button
+        android:id="@+id/btnClearAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Semua Riwayat"
+        android:textColor="@color/black"
+        android:background="@drawable/bt_selector"
+        android:backgroundTint="@null"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>

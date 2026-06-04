@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/lightgreen</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_inset</item>
+        <item name="postSplashScreenTheme">@style/Theme.CekSampah_Utama</item>
+    </style>
+
+    <style name="Theme.CekSampah_Utama" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="materialButtonStyle">@style/Widget.AppCompat.Button</item>
+    </style>
+</resources>

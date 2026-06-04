@@ -43,7 +43,7 @@ Aplikasi Android untuk mendeteksi dan mengklasifikasikan sampah ke dalam 3 kateg
 
 - Android Studio **Narwhal (2025.1.3)** atau lebih baru
 - JDK 11 atau lebih baru
-- Android device / emulator dengan API level 21+
+- Android device / emulator dengan API level 26+
 
 ### Langkah Setup
 

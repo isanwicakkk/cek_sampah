@@ -69,14 +69,3 @@ Aplikasi Android untuk mendeteksi dan mengklasifikasikan sampah ke dalam 3 kateg
 
 > **Catatan:** Pastikan izin kamera diberikan saat pertama kali membuka aplikasi.
 
----
-
-## 🤝 Kontribusi
-
-Kontribusi sangat terbuka! Silakan ikuti langkah berikut:
-
-1. Fork repositori ini
-2. Buat branch fitur baru (`git checkout -b fitur/nama-fitur`)
-3. Commit perubahan (`git commit -m 'Tambah fitur baru'`)
-4. Push ke branch (`git push origin fitur/nama-fitur`)
-5. Buat Pull Request
